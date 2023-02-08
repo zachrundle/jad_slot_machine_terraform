@@ -8,10 +8,3 @@ variable "aws_account" {
     description = "Account number to create AWS resources in. This variable should be defined in the Terraform Cloud workspace settings."
 }
 
-variable "AWS_ACCESS_KEY" {
-  default = ""
-}
-
-variable "AWS_SECRET_ACCESS_KEY" {
-  default = ""
-}

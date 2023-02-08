@@ -1,8 +1,6 @@
 provider "aws" {
   region = var.region
   allowed_account_ids = [var.aws_account]
-  access_key = var.AWS_ACCESS_KEY
-  secret_key = var.AWS_SECRET_ACCESS_KEY
 
 
 assume_role {

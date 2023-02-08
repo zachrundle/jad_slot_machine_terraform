@@ -6,11 +6,7 @@ variable "vpc_cidr" {
     description = "Provide the /16 CIDR for the VPC"
 }
 
-variable "private_subnets" {
-    default = false
-}
-
-variable "enable_nat_gateway" {
+variable "create_ngw" {
     default = false
 }
 
